@@ -1,0 +1,164 @@
+html,
+body {
+    border: 0;
+    font-family: Verdana;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+html {
+    overflow: auto;
+}
+
+.background-photo {
+    background-image: url(../assets/hawaii.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 91.7%;
+    width: 100%;
+}
+
+.navigation {
+    height: 85px;
+    width: 100%;
+}
+
+.navigation__bar {
+    align-content: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    height: 85px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+.navigation__bar-fly-away {
+    color: #2d3982;
+    height: 50%;
+    margin: 1.5% 0 0 4%;
+    padding: 0;
+}
+
+.navigation__bar-links {
+    display: flex;
+    list-style-type: none;
+    margin: 1% 2% 0 0;
+    padding: 0;
+    text-align: center;
+    width: 23%;
+}
+
+.navigation__bar-link-top {
+    display: inline-block;
+    margin: 2% 4% 0 4%;
+}
+
+.navigation__bar-link-top a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.top--hawaii-hawaii {
+    border-bottom: 4px solid #e37889;
+    margin-bottom: 1%;
+}
+
+.top--hawaii-hawaii:hover {
+    border-bottom: 4px solid #e37889;
+    margin-bottom: 1%;
+}
+
+.top--iceland-iceland {
+    border-bottom: 4px solid #e37889;
+    margin-bottom: 1%;
+}
+
+.top--iceland-iceland:hover {
+    border-bottom: 4px solid #e37889;
+    margin-bottom: 1%;
+}
+
+.top--greece-greece {
+    border-bottom: 4px solid #e37889;
+    margin-bottom: 1%;
+}
+
+.top--greece-greece:hover {
+    border-bottom: 4px solid #e37889;
+    margin-bottom: 1%;
+}
+
+.itinerary {
+    height: 100px;
+    width: 100%;
+}
+
+.itinerary__top {
+    align-items: center;
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+
+.itinerary__banner {
+    color: #ffffff;
+    font-size: 80px;
+    margin-left: 4%;
+    padding-top: 4%;
+}
+
+.itinerary__list-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.itinerary__list {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    height: 550px;
+    list-style-type: none;
+    margin: 3% 20px 0 30px;
+    text-align: center;
+    text-decoration: none;
+    width: 390px;
+}
+
+.itinerary__row {
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.itinerary__by-day {
+    border-bottom: 2px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 8% 0 0 4%;
+    width: 90%;
+}
+
+.itinerary__breakfast,
+.itinerary__lunch,
+.itinerary__dinner,
+.itinerary__hiking,
+.itinerary__snorkeling,
+.itinerary__skydiving {
+    background-color: #f0f0f0;
+    font-size: 25px;
+    height: 40px;
+    margin: 35px 15px;
+    padding: 10px 0;
+    width: 90%;
+}

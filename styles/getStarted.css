@@ -1,0 +1,91 @@
+    body {
+        border: 0;
+        font-family: Verdana;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        vertical-align: baseline;
+    }
+    
+    html {
+        overflow: auto;
+        background-image: url(../assets/pexels-tim-mossholder-6432585.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 35%;
+        background
+    }
+    
+    .navigation {
+        height: 85px;
+        width: 100%;
+        margin-bottom: 700px;
+    }
+    
+    .navigation__bar {
+        align-content: center;
+        background-color: #ffffff;
+        display: flex;
+        flex-wrap: wrap;
+        height: 85px;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+    }
+    
+    .navigation__bar-fly-away {
+        color: #2d3982;
+        height: 50%;
+        margin: 1.5% 0 0 4%;
+        padding: 0;
+    }
+    
+    .navigation__bar-links {
+        display: flex;
+        list-style-type: none;
+        margin: 1% 2% 0 0;
+        padding: 0;
+        text-align: center;
+        width: 23%;
+    }
+    
+    .navigation__bar-link-top {
+        display: inline-block;
+        margin: 2% 4% 0 4%;
+    }
+    
+    .navigation__bar-link-top a {
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .top--hawaii-hawaii {
+        border-bottom: 4px solid #e37889;
+        margin-bottom: 1%;
+    }
+    
+    .top--hawaii-hawaii:hover {
+        border-bottom: 4px solid #e37889;
+        margin-bottom: 1%;
+    }
+    
+    .top--iceland-iceland {
+        border-bottom: 4px solid #e37889;
+        margin-bottom: 1%;
+    }
+    
+    .top--iceland-iceland:hover {
+        border-bottom: 4px solid #e37889;
+        margin-bottom: 1%;
+    }
+    
+    .top--greece-greece {
+        border-bottom: 4px solid #e37889;
+        margin-bottom: 1%;
+    }
+    
+    .top--greece-greece:hover {
+        border-bottom: 4px solid #e37889;
+        margin-bottom: 1%;
+    }
